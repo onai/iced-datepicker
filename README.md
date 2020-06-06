@@ -6,7 +6,7 @@
 
 1. Add dependencies
 
->```warning``` The iced library is updated quikly. This widget is based on the master branch of iced repository.<br/>```Commit number```: 94af34884667e78e231fb1904ae3e9fa785c9a7a
+>```[warning]``` The iced library is updated quikly. This widget is based on the master branch of iced repository.<br/>```Commit number```: 94af34884667e78e231fb1904ae3e9fa785c9a7a
 
 Download the iced project, put the date_picker into ```example``` folder.
 
