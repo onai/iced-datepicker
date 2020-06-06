@@ -24,7 +24,7 @@ cargo run --package date_picker
 
 ### Denpendencies
 
-- [Iced: 4c494c724435d05d1b46d19bf890a8aaef962b15](https://github.com/hecrj/iced/tree/4c494c724435d05d1b46d19bf890a8aaef962b15)
+- [Iced: 94af34884667e78e231fb1904ae3e9fa785c9a7a](https://github.com/hecrj/iced/tree/94af34884667e78e231fb1904ae3e9fa785c9a7a)
 
 ### License - TODO
 
