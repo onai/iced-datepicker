@@ -11,8 +11,3 @@ iced = { git = "https://github.com/hecrj/iced", rev = "94af34884667e78e231fb1904
 iced_native = { git = "https://github.com/hecrj/iced/", rev = "94af34884667e78e231fb1904ae3e9fa785c9a7a", path="native" }
 iced_graphics = { git = "https://github.com/hecrj/iced", rev = "94af34884667e78e231fb1904ae3e9fa785c9a7a", path="graphics" }
 chrono = "0.4"
-
-#iced = { path = "../.." }
-#iced_native = { path = "../../native" }
-#iced_graphics = { path = "../../graphics" }
-#chrono = "0.4"
