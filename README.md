@@ -4,23 +4,15 @@
 
 ### Run steps
 
-1. Add dependencies
-
->```[warning]``` The iced library is updated quikly. This widget is based on the master branch of iced repository.<br/>**Commit number**: 94af34884667e78e231fb1904ae3e9fa785c9a7a
-
-Download the iced project, put the date_picker into ```example``` folder.
-
-2. Change the ```Cargo.toml``` of iced
-
-Add the following content at **[workspace] members**:
+run it with `cargo run`:
 ```
-"examples/date_picker",
+cargo run
 ```
+### About warning
 
-3. run it with `cargo run`:
-```
-cargo run --package date_picker
-```
+![](./images/warning.png)
+
+>```[warning]```: This warning is because our widget depends on two sub folder of **Iced**. However, **Iced** doesn't export these two modules. The versions of these two crates in crates.io are also too old to use, so we have to use ```git + path``` to specify the version and location. In the future, this warning can be esasily removed by bumping the versions of **Iced**, **Iced_native**, **Iced_graphics**.
 
 ### Denpendencies
 
