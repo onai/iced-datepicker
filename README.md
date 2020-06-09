@@ -12,7 +12,7 @@ cargo run
 
 ![](./images/warning.png)
 
->```[warning]```: This warning is because our widget depends on two sub folder of **Iced**. However, **Iced** doesn't export these two modules. The versions of these two crates in crates.io are also too old to use, so we have to use ```git + path``` to specify the version and location. In the future, this warning can be esasily removed by bumping the versions of **Iced**, **Iced_native**, **Iced_graphics**.
+>```[warning]```: This warning is because our widget depends on two sub folder of **Iced**. However, **Iced** doesn't export these two modules. The version of these two crates in crates.io is also too old to use, so we have to use ```git + path``` to specify the version and location. In the future, this warning can be esasily removed by bumping the versions of **Iced**, **Iced_native**, and **Iced_graphics**.
 
 ### Denpendencies
 
