@@ -15,7 +15,7 @@ cargo run
 
 ![](./images/warning.png)
 
-This warning pops up because our widget depends on two sub folders of **Iced**. However, **Iced** doesn't export these two modules. The version of these two crates in crates.io is also too old to use, so we have to use ```git + path``` to specify the version and location. In the future, this warning can be easily removed by bumping the versions of **Iced**, **Iced_native**, and **Iced_graphics**. For more information, refer to this issue https://github.com/rust-lang/cargo/issues/1462
+This warning pops up because our widget depends on `iced_native`, and `iced_graphics`, which are sub-folders in `iced`. However, `iced` doesn't export these two modules. The version of these two crates in crates.io is also too old to use, so we have to use ```git + path``` to specify the version and location. In the future, this warning can be easily removed by bumping the versions of `iced`, `iced_native`, and `iced_graphics`. For more information, refer to this issue https://github.com/rust-lang/cargo/issues/1462
 
 # Dependencies
 
